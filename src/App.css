@@ -1,38 +1,192 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.App{
+  font: 15px Arial;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{
+  padding: 16px 0px;
+  background-color: #333;
+  text-align: center;
+  border-radius: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tab{
+  text-decoration: none;
+  color: white;
+  padding: 16px 20px;
+  background-color: #333;
+  cursor: pointer;
+  text-align: center;
+  display: inline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.tab:hover{
+  color:black;
+  background-color: #cbcaca;
+}
+
+.tab.active{
+  box-shadow:inset 0px 0px 0px 5px #333;
+  background-color: green;
+}
+
+form{
+  padding: 10px;
+}
+
+input[type="text"]{
+  background-color: rgb(215, 215, 245);
+}
+
+img{
+  width: 75%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.container{
+  display: grid;
+  /* source: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/
+  for the responsiveness */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.child{
+  padding: 20px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.back_to_top_bttn{
+  position: fixed;
+  display: none;
+  bottom: 50px;
+  right: 50px;
+  width: 120px;
+  height: 50px;
+  max-width: 120px;
+  min-width: 120px;
+  justify-content: center;
+  font: 18px Arial;
+  color: white;
+  background-color: rgb(13, 10, 172);
+  border: 0px;
+  border-radius: 10px;
+  z-index: 998;
+}
+
+.back_to_top_bttn.visible{
+  display: flex;
+}
+
+.back_to_top_bttn:hover{
+  background-color: rgb(110, 191, 223);
+  color: black;
+}
+
+.overlay{
+  z-index: -1001;
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  height: 70%;
+  width: auto;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  border: 0px;
+}
+
+.overlay.visible{
+  opacity: 1;
+  z-index: 1000;
+}
+
+.lightbox{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1000;
+  background-color: black;
+  opacity: 0;
+}
+
+.lightbox.visible{
+  opacity: 0.9;
+  z-index: 999;
+}
+
+table{
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+td{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+th{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.link a{
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link{
+  padding: 0px;
+  color: blue;
+}
+
+.link:hover{
+  background-color: #333;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  font-family: Cochin, Geneva, Georgia, Times, serif;
+  width: 85%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  display: block;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.subtitle{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.name{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
 }
