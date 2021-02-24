@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cs185_react/static/css/main.4963fd88.chunk.css",
+    "main.js": "/cs185_react/static/js/main.5b7a2938.chunk.js",
+    "main.js.map": "/cs185_react/static/js/main.5b7a2938.chunk.js.map",
+    "runtime-main.js": "/cs185_react/static/js/runtime-main.066d2f3e.js",
+    "runtime-main.js.map": "/cs185_react/static/js/runtime-main.066d2f3e.js.map",
+    "static/js/2.87900269.chunk.js": "/cs185_react/static/js/2.87900269.chunk.js",
+    "static/js/2.87900269.chunk.js.map": "/cs185_react/static/js/2.87900269.chunk.js.map",
+    "static/js/3.cd4913de.chunk.js": "/cs185_react/static/js/3.cd4913de.chunk.js",
+    "static/js/3.cd4913de.chunk.js.map": "/cs185_react/static/js/3.cd4913de.chunk.js.map",
+    "index.html": "/cs185_react/index.html",
+    "static/css/main.4963fd88.chunk.css.map": "/cs185_react/static/css/main.4963fd88.chunk.css.map",
+    "static/js/2.87900269.chunk.js.LICENSE.txt": "/cs185_react/static/js/2.87900269.chunk.js.LICENSE.txt",
+    "static/media/choco.545f2483.jpg": "/cs185_react/static/media/choco.545f2483.jpg",
+    "static/media/choco2.157b4d83.jpg": "/cs185_react/static/media/choco2.157b4d83.jpg",
+    "static/media/cloth.8914cc26.mp4": "/cs185_react/static/media/cloth.8914cc26.mp4",
+    "static/media/cookies.ba96c660.jpg": "/cs185_react/static/media/cookies.ba96c660.jpg",
+    "static/media/cookies2.5b92c3af.jpg": "/cs185_react/static/media/cookies2.5b92c3af.jpg",
+    "static/media/drone.a1554c00.mov": "/cs185_react/static/media/drone.a1554c00.mov",
+    "static/media/pizza.1e6a6e6c.JPG": "/cs185_react/static/media/pizza.1e6a6e6c.JPG",
+    "static/media/slice.8996b8ea.jpg": "/cs185_react/static/media/slice.8996b8ea.jpg",
+    "static/media/slice2.fc31f7d0.jpg": "/cs185_react/static/media/slice2.fc31f7d0.jpg",
+    "static/media/straw.0e590cf3.jpg": "/cs185_react/static/media/straw.0e590cf3.jpg",
+    "static/media/straw2.edbb403e.jpg": "/cs185_react/static/media/straw2.edbb403e.jpg",
+    "static/media/sushi.410130b5.jpg": "/cs185_react/static/media/sushi.410130b5.jpg",
+    "static/media/trailer.4dff3235.mp4": "/cs185_react/static/media/trailer.4dff3235.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.066d2f3e.js",
+    "static/js/2.87900269.chunk.js",
+    "static/css/main.4963fd88.chunk.css",
+    "static/js/main.5b7a2938.chunk.js"
+  ]
+}
